@@ -68,7 +68,7 @@ function Login() {
             userFound = true;
 
             if (arr[i].password === password) {
-              navigate('/Home', { state: { username: input } });
+              navigate('/home', { state: { username: input } });
               return;
             } else {
               alert('Incorrect Password');
